@@ -1,0 +1,12 @@
+{
+  "name": "ygcp tool",
+  "description": "fuck it",
+  "version": "0.0.2",
+  "content_scripts": [
+    {
+      "matches": ["http://ygcp.njtech.edu.cn/u/*/MyRecords.aspx"],
+      "js": ["jquery.min.js", "hack.js"]
+    }
+  ],
+  "manifest_version": 2
+}
